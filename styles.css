@@ -1,0 +1,50 @@
+.header-img {
+    position: relative;
+    height: 500px;
+}
+
+.header-img img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.c-nav {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.c-getapp{
+    font-size: 16px;
+}
+
+
+.c-navitem li{
+    font-size: 20px;
+}
+
+.title-image-section{
+    position: absolute;
+    top: 19%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.title-image-section img{
+    width: 30rem;
+}
+.description-section{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    font-size: 200%;
+    text-align: center;
+}
+.c-searchsec{
+    position: absolute;
+    width: 100%;
+    top: 60%;
+}
