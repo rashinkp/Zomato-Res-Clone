@@ -54,4 +54,18 @@
     .title-image-section img{
         width: 20rem;
     }
+    .description-section{
+        top: 180px;
+    }
+}
+
+
+@media (max-width:400px) {
+    .title-image-section img{
+        width: 10rem;
+    }
+    .description-section{
+        top: 150px;
+        font-size: 150%;
+    }
 }
