@@ -71,6 +71,12 @@
     background-color: transparent;
 }
 
+.line-divider{
+    width: 0rem;
+    height: 2rem;
+    border: 0.05rem solid rgb(207, 207, 207);
+}
+
 
 
 @media (max-width:800px) {
