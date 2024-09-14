@@ -48,3 +48,10 @@
     width: 140px;
     top: 60%;
 }
+
+
+@media (max-width:500px) {
+    .title-image-section img{
+        width: 20rem;
+    }
+}
