@@ -6,6 +6,10 @@ body {
     position: relative;
     height: 500px;
 }
+.navbar-collapse {
+    background-color: #000000; /* Change to any color you like */
+    z-index: 10;
+}
 
 .header-img img {
     height: 100%;
