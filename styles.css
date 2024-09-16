@@ -6,10 +6,7 @@ body {
     position: relative;
     height: 500px;
 }
-.navbar-collapse {
-    background-color: #000000; /* Change to any color you like */
-    z-index: 10;
-}
+
 
 .header-img img {
     height: 100%;
@@ -198,6 +195,16 @@ body {
 }
 
 
+@media (max-width: 991.98px) {
+    .navbar-collapse {
+      background-color: #000000; /* Change this to your preferred color */
+      z-index: 10;
+    }
+  
+    .dropdown-menu {
+      background-color: #f8f9fa; /* Change this to your preferred color */
+    }
+  }
 
 @media (min-width:992px){
     .search-section{
