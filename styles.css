@@ -308,7 +308,11 @@ body {
         display: none;
     }
     .c-form-email{
-        display: block;
+        flex-direction: column;
+    }
+    .c-button-sharelink{
+        width: 200px;
+        margin-top: 10px;
     }
     
    
