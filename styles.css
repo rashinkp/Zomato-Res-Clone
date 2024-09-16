@@ -132,6 +132,67 @@ body {
     width: 140px;
 }
 
+.c-box-explore{
+    border: 1px solid rgb(143, 143, 143);
+    border-radius: 10px;
+    width: 90%;
+    height: 60px;
+}
+.accordion-item{
+    border: normal 1px solid rgb(155, 155, 155);
+}
+.c-footerbg{
+    background-color: rgb(233, 233, 233);
+}
+.footer-box{
+    border:1px solid rgb(86, 86, 86);
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.indian-flag{
+    width: 27px;
+    height: 20px;
+    object-fit: cover;
+}
+.c-footerbox-section {
+    justify-content: right;
+
+}
+
+.c-text-footer{
+    text-overflow: ellipsis;
+}
+
+.c-footer-text{
+    line-height: 50px;
+}
+.c-footer-downloadreasource {
+    display: flex;
+    flex-direction: column;
+}
+.footer-divider{
+    margin-top: 5rem;
+    border-width: 1px 0px 0px;
+    border-right-style: initial;
+    border-bottom-style: initial;
+    border-left-style: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-top-style: solid;
+    border-top-color: rgb(0, 0, 0);
+}
+
+.footer-bottom{
+    color: rgb(73, 73, 73);
+
+}
+
 
 
 @media (min-width:992px){
@@ -174,6 +235,14 @@ body {
     .c-rightsection-redbackground{
         margin-left: 20px;
     }
+    .c-footer-header{
+        flex-direction: column;
+    }
+    .c-footerbox-section{
+        margin-top: 30px;
+        margin-left: 40px;
+    }
+    
 }
 
 @media (max-width:500px) {
@@ -232,5 +301,8 @@ body {
 @media (max-width:300px) {
     .c-searchbox {
         width: 220px;
+    }
+    .c-img-downloadresource{
+        width: 100px;
     }
 }
