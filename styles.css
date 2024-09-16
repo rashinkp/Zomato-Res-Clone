@@ -237,10 +237,27 @@ body {
     }
     .c-footer-header{
         flex-direction: column;
+        justify-content: center;
     }
     .c-footerbox-section{
-        margin-top: 30px;
-        margin-left: 40px;
+
+        margin: auto;
+        flex-direction: column;
+    }
+    .c-innerfooter-box {
+        
+    }
+    .c-eachcol-footer{
+        text-align: center;
+    }
+    .c-img-downloadresource {
+        margin: auto;
+    }
+    .c-image-titlefooter{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 30px;
     }
     
 }
