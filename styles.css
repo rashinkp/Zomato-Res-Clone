@@ -118,6 +118,7 @@ body {
 }
 
 
+
 @media (min-width:992px){
     .search-section{
         display: none;
@@ -193,5 +194,12 @@ body {
     
     .c-searchbox{
         width: 280px;;
+    }
+}
+
+
+@media (max-width:300px) {
+    .c-searchbox {
+        width: 220px;
     }
 }
