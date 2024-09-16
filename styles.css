@@ -86,6 +86,9 @@
     .search-section{
         top: 320px;
     }
+    .c-locationicon{
+        margin-right: 10px;
+    }
 }
 
 @media (max-width:500px) {
@@ -94,6 +97,7 @@
     }
     .description-section{
         top: 180px;
+        line-height: 40px;
     }
 }
 
@@ -109,4 +113,17 @@
     .search-section{
         top: 300px;
     }
+    .c-locationicon{
+        display: none;
+    }
+    .c-dropedown{
+        display: none;
+    }
+    .left-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
 }
