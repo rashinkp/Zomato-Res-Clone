@@ -1,20 +1,21 @@
 
-body {
-    height: 3000px;
-}
+
 .header-img {
+    /* this is the section where the image on the top of webiste is used*/
     position: relative;
     height: 500px;
 }
-
+/*  */
 
 .header-img img {
+    /* setting the size of image */
     height: 100%;
     width: 100%;
     object-fit: cover;
 }
 
 .c-nav {
+    /* making navbar absolute to float on the image */
     position: absolute;
     top: 0;
     left: 0;
@@ -22,6 +23,7 @@ body {
 }
 
 .c-getapp{
+    /* the get app icon section on top left */
     font-size: 16px;
 }
 
@@ -31,6 +33,7 @@ body {
 }
 
 .title-image-section{
+    /* the title in the image  */
     position: absolute;
     top: 100px;
     width: 100%;
@@ -39,9 +42,11 @@ body {
 }
 
 .title-image-section img{
+    /* stting the title image size */
     width: 25rem;
 }
 .description-section{
+    /* things under the title image */
     position: absolute;
     top: 210px;
     width: 100%;
@@ -52,6 +57,7 @@ body {
 
 
 .search-section{
+    /* search bar under title section */
     position: absolute;
     top: 280px;
     width: 100%;
@@ -64,6 +70,8 @@ body {
     border-radius: 6px;
 
 }
+
+/* left and right section parts of the search bar */
 .left-section{
     height: 50px;
 }
@@ -72,18 +80,21 @@ body {
 }
 
 .c-input{
+    /* input field */
     border: 0;
     height: 100%;
     background-color: transparent;
 }
 
 .line-divider{
+    /* line divides the left and right section of search bar */
     width: 0rem;
     height: 2rem;
     border: 0.05rem solid rgb(207, 207, 207);
 }
 
 .c-image-incard{
+    /* image in card */
     width: 100%;
     height: 70%;
     object-fit: cover;
@@ -97,6 +108,7 @@ body {
     height: 300px;
 }
 .c-card:hover{
+    /* transforming the card while hovering */
     transform: scale(1.1);
 }
 .c-normalizing{
@@ -119,6 +131,7 @@ body {
 }
 
 .c-redbackground-getapp{
+    /* the background red showing part of getapp */
     width: 100%;
     height: 450px;
     background-color: rgb(255, 238, 238);
@@ -140,12 +153,14 @@ body {
     height: 60px;
 }
 .accordion-item{
+    /* using accordian here */
     border: normal 1px solid rgb(155, 155, 155);
 }
 .c-footerbg{
     background-color: rgb(233, 233, 233);
 }
 .footer-box{
+    /* footer whole box */
     border:1px solid rgb(86, 86, 86);
     width: 120px;
     height: 40px;
@@ -176,6 +191,7 @@ body {
     flex-direction: column;
 }
 .footer-divider{
+    /* the line that divides the footer parts */
     margin-top: 5rem;
     border-width: 1px 0px 0px;
     border-right-style: initial;
@@ -195,14 +211,18 @@ body {
 }
 
 
+
+/* here i am using media queries to customize and ensure
+all the item are working properly here i used some width that
+I need to customize. */
 @media (max-width: 991.98px) {
     .navbar-collapse {
-      background-color: #000000; /* Change this to your preferred color */
+      background-color: #000000; 
       z-index: 10;
     }
   
     .dropdown-menu {
-      background-color: #f8f9fa; /* Change this to your preferred color */
+      background-color: #f8f9fa;
     }
   }
 
